@@ -14,12 +14,14 @@
 
 - `배열(버킷)` = 실제 값이 저장되는 장소
 
-![](C:\Users\USER\Desktop\CSstudy\개발상식\image\image-20220616135542550.png)
+![](image\image-20220616135542550.png)
 
 ​	Ex) 
 
 ```
-예를 들어 우리가 (Key, Value)가 ("John Smith", "521-1234")인 데이터를 크기가 16인 해시 테이블에 저장한다고 하자. 그러면 먼저 index = hash_function("John Smith") % 16 연산을 통해 index 값을 계산한다. 그리고 array[index] = "521-1234" 로 전화번호를 저장하게 된다.
+예를 들어 우리가 (Key, Value)가 ("John Smith", "521-1234")인 데이터를 크기가 16인 해시 테이블에 저장한다고 하자. 
+그러면 먼저 index = hash_function("John Smith") % 16 연산을 통해 index 값을 계산한다. 
+그리고 array[index] = "521-1234" 로 전화번호를 저장하게 된다.
 ```
 
 <br>
@@ -37,7 +39,7 @@
 
 `hashing` : 해시 함수를 통해 계산됨을 의미
 
-
+<br>
 
 #### 좋은 해시함수는?
 
@@ -47,7 +49,7 @@
   - Collision이 많아질수록  Time Complexity 가 O(1)에서 O(n)에 가까워지므로 좋은 해시함수를 선택해야 함
 - hash table의 성능 향상에 필수적
 
-
+<br>
 
 #### Conflict 해결법
 
@@ -57,11 +59,11 @@
 Separate Chaining이란 동일한 버킷의 데이터에 대해 자료구조를 활용해 추가 메모리를 사용하여 다음 데이터의 주소를 저장하는 것이다.
 ```
 
-
-
-<img src="C:\Users\USER\Desktop\CSstudy\개발상식\image\해쉬_분리연결법.JPG" style="zoom: 67%;" />
+<img src="image\해쉬_분리연결법.JPG" style="zoom: 67%;" />
 
 동일한 버킷으로 접근하면 데이터들을 연결해서 관리해주는 것.
+
+<br>
 
 - **연결 구현 방식** 
   => 하나의 해시 버킷에 할당된 key-value 쌍의 개수를 기준으로 
@@ -81,7 +83,10 @@ Separate Chaining이란 동일한 버킷의 데이터에 대해 자료구조를 
 
   보조 해시 함수(supplement hash function)의 목적은 key의 해시 값을 변형하여 **해시 충돌 가능성을 줄이는 것**이다. `Separate Chaining` 방식을 사용할 때 함께 사용되며 보조 해시 함수로 Worst Case 에 가까워지는 경우를 줄일 수 있다.
 
+<br>
+
 하지만 데이터의 수가 많아지면 동일한 버킷에 chaining되는 데이터가 많아지며 그에 따라 캐시의 효율성이 감소한다는 단점이 있다.
+
 <br>
 
 ##### 2. 개방 주소법(Open Addressing)
@@ -95,13 +100,11 @@ Open Addressing이란 추가적인 메모리를 사용하는 Chaining 방식과 
   - Quadratic Probing: 2 차 함수를 이용해 탐색할 위치를 찾는다.
   - Double Hashing Probing: 해시된 값을 한번 더 해싱하여 해시의 규칙성을 없애버리는 방식이다. 해시된 값을 한번 더 해싱하여 새로운 주소를 할당하기 때문에 다른 방법들보다 많은 연산을 하게 된다.
 
-<br>
-
 Open Addressing에서 데이터를 삭제하면 삭제된 공간은 Dummy Space로 활용되는데, 그렇기 때문에 Hash Table을 재정리 해주는 작업이 필요하다고 한다.
 
 <br>
 
-##### `Separate Chaining` vs`Open Address` 
+##### Separate Chaining  VS  Open Address
 
 일단 두 방식 모두 Worst Case 에서 O(M)이다. 
 
