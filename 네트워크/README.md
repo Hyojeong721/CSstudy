@@ -1,3 +1,16 @@
+# Part Network
+
+- [HTTP 의 GET 과 POST 비교](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#http-get%EA%B3%BC-post)
+- [TCP 3-way-handshake](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#tcp-3-way-handshake)
+- [TCP와 UDP의 비교](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#cs-study--03-tcp--udp)
+- [HTTP 와 HTTPS](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#http%EC%99%80-https)
+- [DNS](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#dns)
+- 웹 통신의 큰 흐름
+
+
+
+
+
 # HTTP GET과 POST
 
 ## HTTP 메서드
