@@ -1,3 +1,21 @@
+# Part DataStructure
+
+- [Array vs Linked List](https://github.com/Hyojeong721/CSstudy/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0#array-vs-linked-list)
+
+- [Stack and Queue](https://github.com/Hyojeong721/CSstudy/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0#stack-and-queue)
+
+- [Tree](https://github.com/Hyojeong721/CSstudy/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0#tree)
+
+- [Binary Heap](https://github.com/Hyojeong721/CSstudy/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0#binary-heap)
+
+- [Red Black Tree](https://github.com/Hyojeong721/CSstudy/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0#red-black-tree)
+
+- [Hash Table](https://github.com/Hyojeong721/CSstudy/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0#hash-table)
+
+- [Graph](https://github.com/Hyojeong721/CSstudy/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0#graph)
+
+  
+
 # **Array vs. Linked List**
 
 ## **Array (배열)**
@@ -50,6 +68,8 @@
 
 <br>
 
+<hr>
+
 <br>
 
 # **Stack and Queue**
@@ -67,6 +87,8 @@
 **선입선출(FIFO: First-In First-Out)** 의 형식으로 입출력이 일어나는 자료구조
 
 <br>
+
+<hr>
 
 <br>
 
@@ -138,6 +160,8 @@
   *편향트리의 경우 O(n)*
 
 <br>
+
+<hr>
 
 <br>
 
@@ -248,7 +272,11 @@ CS study : Binary Heap
 
 
 
+<br>
 
+<hr>
+
+<br>
 
 ## Red Black Tree 
 
@@ -297,6 +325,8 @@ Java Collection 에서 TreeMap 도 내부적으로 RBT 로 이루어져 있고, 
 정의에서 살펴본 5, 6번 성질을 만족하도록 수선 필요. 
 
 <br>
+
+<hr>
 
 <br>
 
@@ -456,6 +486,8 @@ Q. 해시테이블을 설명하세요.
 - https://mangkyu.tistory.com/102 [MangKyu's Diary:티스토리]
 
 <br>
+
+<hr>
 
 <br>
 
