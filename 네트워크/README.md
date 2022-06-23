@@ -5,7 +5,7 @@
 - [TCP와 UDP의 비교](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#cs-study--03-tcp--udp)
 - [HTTP 와 HTTPS](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#http%EC%99%80-https)
 - [DNS](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#dns)
-- 웹 통신의 큰 흐름
+- [웹 통신의 큰 흐름](https://github.com/Hyojeong721/CSstudy/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#%EC%9B%B9-%ED%86%B5%EC%8B%A0%EC%9D%98-%ED%81%B0-%ED%9D%90%EB%A6%84)
 
 
 
@@ -717,5 +717,5 @@ https://tecoble.techcourse.co.kr/post/2021-11-07-load-balancing/
 
 # 웹 통신의 큰 흐름
 
-<img src="C:/Users/USER/Desktop/CSstudy/네트워크/웹흐름_image/웹흐름.png">
+<img src="웹흐름_image/웹흐름.png">
 
