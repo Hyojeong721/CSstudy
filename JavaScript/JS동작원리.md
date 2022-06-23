@@ -1,6 +1,6 @@
 # JavaScript에서 동기와 비동기(작동원리)
 
-![image](JavaScript/assets/eventLoop.png)
+![image](./assets/eventLoop.png)
 
 자바스크립트는 `동기적`이다
 
@@ -24,7 +24,7 @@ Web APIs가 그걸 가능하게 해줌
 
 Microtask Queue (Promise) > Animation Frames > Task Queue (setTimeout)
 
-![image](JavaScript/assets/callbackQueue.png)
+![image](./assets/callbackQueue.png)
 
 <br/>
 <br/>
