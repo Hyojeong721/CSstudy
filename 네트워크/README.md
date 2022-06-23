@@ -715,3 +715,7 @@ https://tecoble.techcourse.co.kr/post/2021-11-07-load-balancing/
 
 <br>
 
+# 웹 통신의 큰 흐름
+
+<img src="C:/Users/USER/Desktop/CSstudy/네트워크/웹흐름_image/웹흐름.png">
+
