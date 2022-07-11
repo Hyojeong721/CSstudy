@@ -17,7 +17,7 @@
 >[Counting Sort](https://www.cs.usfca.edu/~galles/visualization/CountingSort.html)
 
 ```java
-int arr[5]; 		// [5, 4, 3, 2, 1]
+int arr[5]; 
 int sorted_arr[5];
 
 // 과정 1 - counting 배열의 사이즈를 최대값 5가 담기도록 크게 잡기
@@ -40,11 +40,21 @@ for (int i = arr.length - 1; i >= 0; i--) {
 
 시간 복잡도 `O(n)`, 정확하게는 `O(n + k)`, 공간 복잡도 `O(n)`
 
+>문제 => https://leetcode.com/tag/counting-sort/
+
 ## Radix Sort 
 
 입력 데이터의 최댓값 증가에 의한 Counting Sort 의 비효율성을 개선.
 
-단 정렬하고자 하는 데이터의 길이가 모두 동일해야 한다. 
+단 정렬하고자 하는 데이터의 길이가 모두 동일해야 성능이 Comparison Sort 보다 좋다. 
+
+두 가지 방법이 있는데, 
+
+`LSD(Least Significant Digit)` => 1의 자리부터 
+
+`MSD(Most Significant Digit)` => 가장 큰 자릿수부터 
+
+LSD 를 사용하면 중간에 정렬 결과를 볼 수 있어 좋다. 
 
 >https://lktprogrammer.tistory.com/48
 
